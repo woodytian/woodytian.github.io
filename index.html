@@ -77,7 +77,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -130,7 +130,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
     </div>
 
                 </td>
@@ -154,11 +154,11 @@
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                5
+                6
                 <span>文章</span>
             </div>
             <div class="article-info-block">
-                7
+                8
                 <span>标签</span>
             </div>
         </div>
@@ -201,6 +201,149 @@
 
             
             <section id="main">
+    <article id="post-过完年，该收收心了" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            
+	
+		<a href="/2017/02/09/过完年，该收收心了/" itemprop="url">
+            <img src="https://ws3.sinaimg.cn/large/40b6de9bjw1fckdvvktf4j20rs09xmy9.jpg" class="article-banner" />
+        </a>
+	
+
+
+
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/02/09/过完年，该收收心了/">过完年，该收收心了</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/02/09/过完年，该收收心了/">
+            <time datetime="2017-02-09T09:16:33.870Z" itemprop="datePublished">2017-02-09</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/生活/">生活</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/生活/其他/">其他</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/todo/">todo</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><p>年前连续一段时间都做什么事（不只是因为我懒，还有其他人时间安排的原因），年后一来就忙了一阵（准确说来是从过年开始忙）。现在是个好机会，趁着还有努力的劲头，把时间安排一下。<br></p>
+            <p class="article-more-link">
+                <a href="/2017/02/09/过完年，该收收心了/#more">查看更多</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://woodytian.github.io/2017/02/09/过完年，该收收心了/" data-id="ciyy8eb25000cosuugthjvva5" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://woodytian.github.io/2017/02/09/过完年，该收收心了/#comments" class="article-comment-link ds-thread-count" data-thread-key="https://woodytian.github.io/2017/02/09/过完年，该收收心了/">评论</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-blog" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -266,7 +409,7 @@
 
 </div>
 
-    <a data-url="https://woodytian.github.io/2017/01/25/blog/" data-id="ciyds3bsm0001k0uudjwwk4fk" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://woodytian.github.io/2017/01/25/blog/" data-id="ciyy8eave0000osuuwbhf28rj" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -412,7 +555,7 @@
 
 </div>
 
-    <a data-url="https://woodytian.github.io/2017/01/11/WordPress转GitHub+Hexo/" data-id="ciyds3bw90007k0uusk0y7nzz" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://woodytian.github.io/2017/01/11/WordPress转GitHub+Hexo/" data-id="ciyy8ebtx0013osuuiqinm3bp" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -558,7 +701,7 @@
 
 </div>
 
-    <a data-url="https://woodytian.github.io/2017/01/06/用Git把旧的代码放到GitHub/" data-id="ciyds3bxa000ak0uusysma1vo" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://woodytian.github.io/2017/01/06/用Git把旧的代码放到GitHub/" data-id="ciyy8eb1w0009osuulu1xmdgp" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -703,7 +846,7 @@
 
 </div>
 
-    <a data-url="https://woodytian.github.io/2016/12/09/WP开发日志/" data-id="ciyds3bvx0003k0uuuv0suxwf" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://woodytian.github.io/2016/12/09/WP开发日志/" data-id="ciyy8eb28000eosuu5zi1nh34" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -841,7 +984,7 @@
 
 </div>
 
-    <a data-url="https://woodytian.github.io/2016/05/26/hello-world/" data-id="ciyds3bx90009k0uu7rg4p7ae" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://woodytian.github.io/2016/05/26/hello-world/" data-id="ciyy8eb1q0007osuua2e77qo9" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -931,6 +1074,25 @@
                     <li>
                         
                         <div class="item-thumbnail">
+                            <a href="/2017/02/09/过完年，该收收心了/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://ws1.sinaimg.cn/large/40b6de9bgy1fckdveh0koj2044044aa1.jpg)" alt="过完年，该收收心了" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/生活/">生活</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/生活/其他/">其他</a></p>
+                            <p class="item-title"><a href="/2017/02/09/过完年，该收收心了/" class="title">过完年，该收收心了</a></p>
+                            <p class="item-date"><time datetime="2017-02-09T09:16:33.870Z" itemprop="datePublished">2017-02-09</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
                             <a href="/2017/01/25/blog/" class="thumbnail">
     
     
@@ -1004,25 +1166,6 @@
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/05/26/hello-world/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://ws2.sinaimg.cn/large/40b6de9bjw1fc2y4xlu51j20440443yf.jpg)" alt="Hello World" class="thumbnail-image"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2016/05/26/hello-world/" class="title">Hello World</a></p>
-                            <p class="item-date"><time datetime="2016-05-25T22:00:00.000Z" itemprop="datePublished">2016-05-26</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -1032,7 +1175,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">分类</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/科技/">科技</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/科技/博客/">博客</a><span class="category-list-count">4</span></li></ul></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/生活/">生活</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/生活/其他/">其他</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/科技/">科技</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/科技/博客/">博客</a><span class="category-list-count">4</span></li></ul></li></ul>
         </div>
     </div>
 
@@ -1041,7 +1184,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">归档</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">一月 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">二月 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">一月 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -1050,7 +1193,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">标签</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/GIT/">GIT</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/">GitHub</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HEXO/">HEXO</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VPS/">VPS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/WordPress/">WordPress</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/其他/">其他</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/教程/">教程</a><span class="tag-list-count">3</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/GIT/">GIT</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/">GitHub</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HEXO/">HEXO</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VPS/">VPS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/WordPress/">WordPress</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/todo/">todo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/其他/">其他</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/教程/">教程</a><span class="tag-list-count">3</span></li></ul>
         </div>
     </div>
 
@@ -1059,7 +1202,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">标签云</h3>
         <div class="widget tagcloud">
-            <a href="/tags/GIT/" style="font-size: 15px;">GIT</a> <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/HEXO/" style="font-size: 15px;">HEXO</a> <a href="/tags/VPS/" style="font-size: 10px;">VPS</a> <a href="/tags/WordPress/" style="font-size: 15px;">WordPress</a> <a href="/tags/其他/" style="font-size: 10px;">其他</a> <a href="/tags/教程/" style="font-size: 20px;">教程</a>
+            <a href="/tags/GIT/" style="font-size: 15px;">GIT</a> <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/HEXO/" style="font-size: 15px;">HEXO</a> <a href="/tags/VPS/" style="font-size: 10px;">VPS</a> <a href="/tags/WordPress/" style="font-size: 15px;">WordPress</a> <a href="/tags/todo/" style="font-size: 10px;">todo</a> <a href="/tags/其他/" style="font-size: 10px;">其他</a> <a href="/tags/教程/" style="font-size: 20px;">教程</a>
         </div>
     </div>
 
